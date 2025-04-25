@@ -48,3 +48,38 @@ Este projeto simula, de forma conceitual, as interações e funcionalidades bás
 * **Biblioteca Padrão do Python:** Módulos como `time`, `sys`, `math`, `random`, `datetime`, `os` (este último opcional, dependendo da implementação de `limpar_tela`). Nenhuma biblioteca externa é necessária por padrão (a menos que `readchar` tivesse sido usada).
 
 ## Estrutura do Projeto 📂
+simulador_aurora_i/
+│
+├── main.py                     # Ponto de entrada, menu principal, orquestração
+├── modulo_pressurizacao.py     # Simulação do ciclo da câmara de ar
+├── modulo_diagnostico.py       # Simulação da verificação de status dos sistemas
+├── modulo_monitoramento_vital.py # Simulação do monitoramento contínuo (vital/ambiental)
+├── modulo_painel_comando.py    # Simulação do painel de controle de voo interativo
+└── README.md                   # Este arquivo
+
+## Como Usar/Executar ▶️
+
+1.  **Pré-requisitos:** Certifique-se de ter o [Python 3](https://www.python.org/downloads/) instalado em seu sistema.
+2.  **Obter o Código:** Clone ou baixe os arquivos deste repositório.
+    ```bash
+    git clone [https://github.com/seu-usuario/simulador_aurora_i.git](https://github.com/seu-usuario/simulador_aurora_i.git)
+    cd simulador_aurora_i
+    ```
+    *(Substitua `seu-usuario` pelo seu nome de usuário no GitHub)*
+3.  **Organização:** Garanta que todos los arquivos `.py` (`main.py`, `modulo_*.py`) estejam na mesma pasta.
+4.  **Execução:** Abra um terminal ou prompt de comando **nessa pasta** e execute:
+    ```bash
+    python main.py
+    ```
+5.  **Interação:** Siga as instruções apresentadas no menu interativo.
+    * Use os números para selecionar os módulos.
+    * Use `Ctrl+C` para interromper módulos contínuos (como o Monitoramento Vital) ou o menu principal (será pedida confirmação).
+    * Use os comandos específicos dentro dos módulos (como 'sair' no Painel de Comando).
+
+## Contexto do Projeto 🎓
+
+Este simulador foi desenvolvido como parte de um trabalho fictício de **Design de Software Aplicado à Engenharia**. Ele se baseia em uma história fictícia sobre a primeira missão tripulada a Marte, a bordo da espaçonave Aurora I. O foco principal do projeto é a aplicação de conceitos de design modular, simulação de sistemas e interação com o usuário em um contexto de engenharia aeroespacial, ainda que de forma simplificada e conceitual.
+
+---
+
+*Sinta-se à vontade para modificar e expandir este simulador!*
