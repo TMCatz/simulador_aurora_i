@@ -48,6 +48,8 @@ Este projeto simula, de forma conceitual, as interações e funcionalidades bás
 * **Biblioteca Padrão do Python:** Módulos como `time`, `sys`, `math`, `random`, `datetime`, `os` (este último opcional, dependendo da implementação de `limpar_tela`). Nenhuma biblioteca externa é necessária por padrão (a menos que `readchar` tivesse sido usada).
 
 ## Estrutura do Projeto 📂
+
+```text
 simulador_aurora_i/
 │
 ├── main.py                     # Ponto de entrada, menu principal, orquestração
@@ -56,6 +58,7 @@ simulador_aurora_i/
 ├── modulo_monitoramento_vital.py # Simulação do monitoramento contínuo (vital/ambiental)
 ├── modulo_painel_comando.py    # Simulação do painel de controle de voo interativo
 └── README.md                   # Este arquivo
+```
 
 ## Como Usar/Executar ▶️
 
