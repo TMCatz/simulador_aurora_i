@@ -69,7 +69,7 @@ simulador_aurora_i/
     cd simulador_aurora_i
     ```
     *(Substitua `seu-usuario` pelo seu nome de usuário no GitHub)*
-3.  **Organização:** Garanta que todos los arquivos `.py` (`main.py`, `modulo_*.py`) estejam na mesma pasta.
+3.  **Organização:** Garanta que todos os arquivos `.py` (`main.py`, `modulo_*.py`) estejam na mesma pasta.
 4.  **Execução:** Abra um terminal ou prompt de comando **nessa pasta** e execute:
     ```bash
     python main.py
