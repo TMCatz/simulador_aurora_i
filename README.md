@@ -65,10 +65,9 @@ simulador_aurora_i/
 1.  **Pré-requisitos:** Certifique-se de ter o [Python 3](https://www.python.org/downloads/) instalado em seu sistema.
 2.  **Obter o Código:** Clone ou baixe os arquivos deste repositório.
     ```bash
-    git clone [https://github.com/seu-usuario/simulador_aurora_i.git](https://github.com/seu-usuario/simulador_aurora_i.git)
+    git clone [https://github.com/TMCatz/simulador_aurora_i.git](https://github.com/seu-usuario/simulador_aurora_i.git)
     cd simulador_aurora_i
     ```
-    *(Substitua `seu-usuario` pelo seu nome de usuário no GitHub)*
 3.  **Organização:** Garanta que todos os arquivos `.py` (`main.py`, `modulo_*.py`) estejam na mesma pasta.
 4.  **Execução:** Abra um terminal ou prompt de comando **nessa pasta** e execute:
     ```bash
